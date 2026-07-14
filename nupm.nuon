@@ -1,0 +1,10 @@
+{
+  name: docgen
+  description: 'Automatically generate documentation from Nushell source code.'
+  version: 0.0.1-alpha
+  type: module
+  info: {
+    git: `https://github.com/zaynram/nushell-docgen`
+    ref: main
+  }
+}
