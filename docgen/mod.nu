@@ -12,6 +12,8 @@
 # module is a CI signal, not a gap to skip over); private helpers are
 # invisible; nested submodules are not traversed.
 
+# nu-lint-ignore-file: add_doc_comment_exported_fn
+
 # The introspection program run inside the child interpreter. %USE% and
 # %WHERE% are substituted by `introspect`; nuon on stdout is the only output.
 const CHILD_SCRIPT = r#'
